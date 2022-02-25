@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="top">
+            <div class="display_wrap">
+                <input class="display" type="text" disabled>
+            </div>
+        </div>
+        <div class="middle"></div>
+        <div class="bottom">
+            <table class="cal_btn">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><button class='clear' value="reset">C</button></td>
+                        <td><button class='clear' value="del">←</button></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><button class='operator' value="operator">%</button></td>
+                        <td><button class='operator' value="squared">x²</button></td>
+                        <td><button class='operator' value="root">√</button></td>
+                        <td><button class='operator' value="operator">÷</button></td>
+                    </tr>
+                    <tr>
+                        <td> <button class='number'>7</button> </td>
+                        <td> <button class='number'>8</button> </td>
+                        <td> <button class='number'>9</button> </td>
+                        <td> <button class='operator' value="operator">×</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class='number'>4</button> </td>
+                        <td> <button class='number'>5</button> </td>
+                        <td> <button class='number'>6</button> </td>
+                        <td> <button class='operator' value="operator">-</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class='number'>1</button> </td>
+                        <td> <button class='number'>2</button> </td>
+                        <td> <button class='number'>3</button> </td>
+                        <td> <button class='operator' value="operator">+</button> </td>
+                    </tr>
+                    <tr>
+                        <!-- <td> <button class='operator' value="abs">+/-</button> </td> -->
+                        <td> <button class='number'>0</button> </td>
+                        <td> <button class='dot'>.</button> </td>
+                        <td style="width: 48%;"> <button class='equals' value="equals">=</button> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
